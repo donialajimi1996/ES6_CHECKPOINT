@@ -1,6 +1,6 @@
 const song = document.getElementById("song");
 const score = document.getElementById("score");
-let colors = ["green", "skyblue", "red", "black", "white", "beige"];
+let colors = ["#7b505e", "#ba9970", "#058087", "#7b505e", "white", "beige"];
 
 const avance = () => {
   song.currentTime += 10;
